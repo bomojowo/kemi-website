@@ -1,3 +1,23 @@
+body {
+  background-color: #edbb99;
+}
+
+.nav-bar {
+  text-align: center;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  align-items: centre;
+  justify-content: space-between;
+  list-style-type: none;
+  width: auto;
+}
 a {
-    color: aqua;
+}
+
+.title {
+  text-align: center;
+  text-decoration: underline;
 }

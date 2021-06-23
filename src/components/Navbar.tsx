@@ -1,14 +1,22 @@
-import './navbar.css';
+import "./navbar.css";
 function Navbar(): JSX.Element {
-    return(
-        <div className="nav-bar">
-            
-                <a href="#">Intro</a> |
-                <a href="#">Videos</a> |
-                <a href="#">Blog</a>
-            
-        </div>
-    )
+  return (
+    <div className="nav-bar">
+      <ul>
+        <li>
+          <a href="#">Intro</a>
+        </li>{" "}
+        |
+        <li>
+          <a href="#">Videos</a>
+        </li>{" "}
+        |
+        <li>
+          <a href="#">Blog</a>
+        </li>
+      </ul>
+    </div>
+  );
 }
 
 export default Navbar;

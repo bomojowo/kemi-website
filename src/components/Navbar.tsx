@@ -1,10 +1,11 @@
-function Navbar(){
+import './navbar.css';
+function Navbar(): JSX.Element {
     return(
-        <div>
+        <div className="nav-bar">
             
-            Intro
-            Videos
-            Blog
+                <a href="#">Intro</a> |
+                <a href="#">Videos</a> |
+                <a href="#">Blog</a>
             
         </div>
     )

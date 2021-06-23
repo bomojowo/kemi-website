@@ -4,15 +4,15 @@ function Navbar(): JSX.Element {
     <div className="nav-bar">
       <ul>
         <li>
-          <a href="#">Intro</a>
+          <a href="https://instagram.com/inspiirae?utm_medium=copy_link">Intro</a>
         </li>{" "}
         |
         <li>
-          <a href="#">Videos</a>
+          <a href="https://instagram.com/inspiirae?utm_medium=copy_link">Videos</a>
         </li>{" "}
         |
         <li>
-          <a href="#">Blog</a>
+          <a href="https://instagram.com/inspiirae?utm_medium=copy_link">Blog</a>
         </li>
       </ul>
     </div>

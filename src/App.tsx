@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Carousel from "./components/Carousel";
 
 function App() {
   return (
@@ -9,7 +10,14 @@ function App() {
         <Navbar />
         <h1 className="title">Inspiirae</h1>
       </header>
-      <main>Picture</main>
+      <main>
+        <div>
+          Picture
+        </div>
+        <div>
+          <Carousel />
+        </div>
+        </main>
       <footer>links to socials</footer>
     </div>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer"
 import Carousel from "./components/Carousel";
 
 function App() {
@@ -12,13 +13,10 @@ function App() {
       </header>
       <main>
         <div>
-          Picture
-        </div>
-        <div>
           <Carousel />
         </div>
         </main>
-      <footer>links to socials</footer>
+      <Footer />
     </div>
   );
 }
